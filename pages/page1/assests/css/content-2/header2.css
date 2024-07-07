@@ -1,0 +1,90 @@
+.header22-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 90%;
+    height: 15vh;
+    padding: 0rem 5rem;
+    box-shadow: 0px 5px 10px #0000005b
+    ;
+}
+
+.logo22{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030303;
+    font-size: 2rem;
+    font-weight: 700;
+
+        span{
+            color: #3e41ff;
+        }
+    
+
+    
+}
+
+.ul22{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: #000000;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: transform 0.5s;
+        }
+    }
+}
+
+.ul22 li a:hover{
+    color: #3e41ff;
+}
+
+
+.button22{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1rem;
+    overflow: hidden;
+    border: 3px solid #3e41ff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+    position: relative;
+    transition: 0.5s;
+    z-index: 1;
+
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+::placeholder{
+    color: #000000;
+}
+
+#search{
+    width: 2rem;
+    color: #3e41ff;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    padding-right: 0.5rem;
+}
+
+
+.button22:hover {
+    width: 15rem;
+}

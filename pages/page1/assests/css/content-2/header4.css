@@ -1,0 +1,90 @@
+.header24-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1A4D2E;
+    width: 90%;
+    height: 15vh;
+    padding: 0rem 5rem;
+}
+
+.logo24{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+
+        span{
+            color: #352514;
+        }
+    
+
+    
+}
+
+.ul24{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-left: auto;
+    padding-right: 2rem;
+
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: 0.5s;
+            position: relative;
+        }
+    }
+}
+
+.ul24 li a::after{
+    position: absolute;
+    content: '';
+    background-color: #221609;
+    width: 100%;
+    transform-origin: right;
+    height: 5px;
+    bottom: -3px;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s, scale 0.5s;
+    border-radius: 50px;
+}
+
+.ul24 li a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+    
+}
+
+.button24{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    cursor: pointer;
+
+
+
+    .Log-in24{
+        color: #fff;
+        background-color: #352514;
+        padding: 1rem 3rem;
+        cursor: pointer;
+    }
+}
+
+
+.Log-in24:hover{
+    background-color: #221609;
+}
+

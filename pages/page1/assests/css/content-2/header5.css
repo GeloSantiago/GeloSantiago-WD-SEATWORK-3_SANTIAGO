@@ -1,0 +1,86 @@
+.header25-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2c2c2c;
+    width: 90%;
+    height: 15vh;
+    padding: 0rem 5rem;
+}
+
+.logo25{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+
+        span{
+            color: #FF7F3E;
+        }
+    
+
+    
+}
+
+.ul25{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: 0.5s;
+        }
+    }
+}
+
+.ul25 li a:hover{
+    color: #ff5500;
+}
+
+.button25{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    cursor: pointer;
+
+    .sign-in25{
+        color: #ffffff;
+        font-size: 1.1rem;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.7rem 3rem;
+        transition: 0.5s;
+        border: 1px solid #fff;
+    }
+
+    .sign-up25{
+        color: #fff;
+        background-color: #FF7F3E;
+        padding: 1rem 3rem;
+        cursor: pointer;
+    }
+}
+
+
+.sign-in25:hover{
+    background-color: #fff;
+    color: #FF7F3E;
+}
+
+
+.sign-up25:hover{
+    background-color: #ff5500;
+}

@@ -1,0 +1,66 @@
+.header5-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF6E9;
+    width: 90%;
+    height: 15vh;
+    padding: 0rem 5rem;
+    box-shadow: 2px 3px 5px #0202024d;
+}
+
+.logo5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 700;
+
+        span{
+            color: #FF7F3E;
+        }
+    
+
+    
+}
+
+.ul5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: #020202;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+    }
+}
+
+.button5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    cursor: pointer;
+
+    .sign-in{
+        color: #000000;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .sign-up{
+        color: #fff;
+        background-color: #FF7F3E;
+        padding: 1rem 3rem;
+        cursor: pointer;
+    }
+}
+

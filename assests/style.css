@@ -1,0 +1,118 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.container{
+  background-image: linear-gradient(to right top, #051937, #323854, #595c72, #828293, #abaab4, #bdb5c8, #d3c0da, #ecc9e9, #ffafd4, #ff94a6, #ff8367, #ff8500);
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg-top{
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 8.5px );
+  -webkit-backdrop-filter: blur( 8.5px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 100%;
+  height: 3rem;
+}
+
+.wrapper-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+dotlottie-player{
+  width: 100%;
+  max-width: 500px;
+  bottom: -5rem;
+  position: relative;
+}
+
+.list-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.top-container{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  background-image: linear-gradient(to right, #051937, #4f285f, #a22b68, #e4454d, #ff8500);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.mid-container{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  background-image: linear-gradient(to left, #051937, #4f285f, #a22b68, #e4454d, #ff8500);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.bottom-container{
+font-size: 1.2rem;
+font-weight: 500;
+width: 50%;
+text-align: center;
+}
+.thumbnail-container{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+padding-top: 2rem;
+}
+
+.thumbnail-container .footer-thumbnail, .header-thumbnail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thumbnail-container .footer-thumbnail a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 1rem 4rem;
+  color: #fff;
+  background-image: linear-gradient(to right, #051937, #4f285f, #a22b68, #e4454d, #ff8500);
+  border-radius: 50px;
+}
+
+.thumbnail-container .header-thumbnail a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #fff;
+  background-image: linear-gradient(to left, #051937, #4f285f, #a22b68, #e4454d, #ff8500);
+  padding: 1rem 4rem;
+  border-radius: 50px;
+  position: relative;
+}
+
+.thumbnail-container .header-thumbnail a::after{
+  position: absolute;
+  content: '';
+  background-color: #fff;
+  width: 12rem;
+  height: 3rem;
+  left: 0.5rem;
+  bottom: -0.5rem;
+  border-radius: 50px;
+  z-index: -1;
+}
