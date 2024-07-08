@@ -54,8 +54,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-
-Description of the project in details.
+This website features unique header and footer designs using pure HTML and CSS. It includes five animated and five static headers, as well as five dynamic and five static footers. This showcase offers inspiration and practical examples for web designers with diverse design preferences.
 
 Guiding Question:
 
@@ -121,6 +120,6 @@ WD-Seatwork 3
 | Title     | Purpose Link                                                          |                                                   |
 | --------- | --------------------------------------------------------------------- | ------------------------------------------------- |
 | ICONS     | Applying icons for editing in CSS.                                    | https://fontawesome.com/search?q=face&o=r         |
-| Youtube   | Getting ideas and tutorial for using animation and effect for header. | https://youtu.be/egQkSOFZNbQ?si=PgDtxct7o0w9la90  |
-| Github    | Get some ideas and the flow of format.                                | https://github.com/zyx-0314/WD-Seatwork-3         |
-| w3schools | Get some ideas and the flow of format.                                | https://www.w3schools.com/css/css3_animations.asp |
+| Youtube   | Getting ideas and tutorial for using animation and effect for header. | https://youtu.be/usCuN6qSYvA?si=FjFzgzgal32AEThN  |
+| Github    | Get some ideas and the flow of format.                                | https://github.com/topics/html-css-website        |
+| w3schools | Get some ideas and the flow of format.                                | https://youtu.be/UpkEANWC2Ms?si=-BKy0iT8FIKrvh1v  |
